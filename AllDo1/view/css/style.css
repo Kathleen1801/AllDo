@@ -1,0 +1,155 @@
+body {
+  height: 1000px;
+  background-image: linear-gradient(to bottom right , #eee6ff,#97dffc, #858ae3,#613dc1, #2c0735);
+  color: white;
+}
+
+.box{
+  background: #444;
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0px 20px 0 rgb(255, 255, 255);
+  }
+
+.header-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.header-button {
+  padding: 10px 20px;
+  background-image: linear-gradient(to bottom right,#858ae3, #2c0735c8);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0px;
+}
+
+.header-button:hover {
+  text-decoration: underline;
+}
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+    
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #f5f5f5;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="telefone"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-contratante-anunciante {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom right,#858ae3, #2c0735c8);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0px;
+  }
+  
+
+  .btn-cadastrar {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom right, #53a6c7,#858ae3);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0px;
+  }
+
+
+  .btn-login:hover {
+    background-color: #6a1b8e;
+  }
+  
+  .cadastro-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .cadastro-link a {
+    color: #2196f3;
+    text-decoration: none;
+  }
+  .buttons{
+text-align: center;
+  }
+
+    .borda-bottom-degrade{
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, #2196f3, #61b2f5 100%);
+    border-image-slice: 1;
+    }
+
+    .slc-tipo {
+      width: 125px;
+      padding: 8px; 
+      font-size: 16px; 
+      margin: 10px 0;
+      border-radius: 4px; 
+      outline: none; /
+    }
+    
+    .slc-tipo option {
+      font-size: 14px; 
+    }
+
+    .box-buttons{
+      position: fixed;
+      bottom: 10px;
+      right: 40px;
+    }
+
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 40%;
+
+    }

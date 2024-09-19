@@ -1,0 +1,95 @@
+body {
+    height: 1000px;
+    background-image: linear-gradient(to bottom right , #eee6ff,#97dffc, #858ae3,#613dc1, #2c0735);
+    color: white;
+  }
+  
+  .box{
+    background: rgb(255, 255, 255);
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.819);
+    }
+  
+
+  
+  .header-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom right,#2196f3, #61b2f5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0px;
+  }
+  
+  .header-button:hover {
+    text-decoration: underline;
+  }
+    
+    h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: black;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: black;
+    }
+    
+    input[type="email"],
+    input[type="password"],
+    input[type="telefone"],
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    
+  
+    .btn-atualizar {
+      display: inline-block;
+      padding: 10px 20px;
+      background-image: linear-gradient(to bottom right,#858ae3, #2c0735c8);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn-excluir{
+      display: inline-block;
+      position: fixed;
+      right: 55%;
+      bottom: 9.5%;
+      padding: 10px 20px;
+      background-image: linear-gradient(to bottom right,#858ae3, #2c0735c8);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+      .box-buttons{
+        position: fixed;
+        bottom: 10px;
+        right: 40px;
+      }
+  
+
+      
+  
